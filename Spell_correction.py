@@ -10,7 +10,7 @@ d4 = {}
 ms = input("Enter a word : ")
 ms = ms.translate(str.maketrans('', '', string.punctuation)).lower()
 kval=2
-#Sample dictionary
+
 
 
 def kgram(x,n):
